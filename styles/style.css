@@ -16,8 +16,23 @@
 .container {
     width: 82%;
     max-width: 1320px;
-    margin: 30px auto;
+    margin: 0 auto;
     border: 1px solid red;
+}
+
+#discount {
+    margin-top: 80px;
+}
+
+button {
+    color: #FFFFFF;
+    background: #FF0000;
+    font-weight: 700;
+    font-size: 20;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 /* banner related styles */
@@ -47,6 +62,7 @@
     font-size: 72px;
 }
 
+/* discount related styles */
 .discount-main .discount-heading,
 .discount-main .new-year-img {
     margin: 0 auto;
@@ -77,9 +93,54 @@
     font-size: 48px;
 }
 
-.discount-main .new-year-img{
+.discount-main .new-year-img {
     max-width: 802px;
 }
-.discount-main .new-year-img{
+
+.discount-main .new-year-img {
+    width: 100%;
+}
+
+/* midnight party related styles */
+#midnight{
+    margin-top: 80px;
+}
+.midnight-main {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.midnight-main .midnight-content,
+.midnight-main .midnight-img{
+    margin: 0 auto;
+}
+
+.midnight-main .midnight-content {
+    max-width: 700px;
+}
+.midnight-main .midnight-content *{
+    margin-bottom: 20px;
+}
+.midnight-main .midnight-content h2 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.midnight-main .midnight-content p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.midnight-main .midnight-img{
+    max-width: 300px;
+}
+.midnight-main .midnight-img img{
     width: 100%;
 }
