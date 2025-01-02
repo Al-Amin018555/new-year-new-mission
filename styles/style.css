@@ -21,7 +21,7 @@
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 #discount {
@@ -37,6 +37,11 @@ button {
     border-radius: 8px;
     padding: 10px 20px;
     cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #32a2c4;
 }
 
 /* banner related styles */
@@ -44,6 +49,7 @@ button {
     background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../resources/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 50px;
 
 }
 
@@ -177,6 +183,53 @@ button {
 
 .party-details-main .party-details-content button {
     margin-top: 45px;
+}
+
+/* coming soon related styles */
+.coming-soon-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.coming-soon-main .best-offer {
+    max-width: 390px;
+}
+
+.coming-soon-main .best-offer * {
+    margin-bottom: 15px;
+}
+
+.coming-soon-main .best-offer #offer {
+    font-weight: 500;
+    font-size: 24px;
+}
+.coming-soon-main .best-offer h2{
+    color: #070211;
+    font-weight: 900;
+    font-size: 48px;
+}
+.coming-soon-main .best-offer .best-offer-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+    font-size: 20px;
+}
+.coming-soon-main .new-year-container {
+    max-width: 270px;
+}
+
+.coming-soon-main .new-year-container * {
+    margin-bottom: 15px;
+}
+.coming-soon-main .new-year-container .new-year-text h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+.coming-soon-main .new-year-container .new-year-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+    font-size: 20px;
 }
 
 /* best gift related styles */
@@ -321,10 +374,12 @@ button {
     max-width: 320px;
     margin: 0 auto;
 }
-.footer-main .footer-end{
+
+.footer-main .footer-end {
     display: flex;
     justify-content: space-between;
 }
-.footer-main .footer-end .footer-end-button button{
+
+.footer-main .footer-end .footer-end-button button {
     padding: 15px 30px;
 }
