@@ -12,7 +12,8 @@
 .font-inter {
     font-family: "Inter", serif;
 }
-.color-primary{
+
+.color-primary {
     color: rgba(255, 0, 0, 1);
 }
 
@@ -20,7 +21,7 @@
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #discount {
@@ -40,7 +41,7 @@ button {
 
 /* banner related styles */
 .banner {
-    background:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../resources/Banner\ Image.png');
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../resources/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -105,11 +106,12 @@ button {
 }
 
 /* midnight party related styles */
-#midnight{
+#midnight {
     margin-top: 80px;
 }
+
 .midnight-main {
-    background: linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../resources/Vectorrr.png');
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -119,17 +121,20 @@ button {
     padding: 50px 0;
     margin: 0 auto;
 }
+
 .midnight-main .midnight-content,
-.midnight-main .midnight-img{
+.midnight-main .midnight-img {
     margin: 0 auto;
 }
 
 .midnight-main .midnight-content {
     max-width: 700px;
 }
-.midnight-main .midnight-content *{
+
+.midnight-main .midnight-content * {
     margin-bottom: 20px;
 }
+
 .midnight-main .midnight-content h2 {
     color: #FFFFFF;
     font-weight: 900;
@@ -142,21 +147,25 @@ button {
     font-size: 18px;
 
 }
-.midnight-main .midnight-img{
+
+.midnight-main .midnight-img {
     max-width: 300px;
 }
-.midnight-main .midnight-img img{
+
+.midnight-main .midnight-img img {
     width: 100%;
 }
 
 /* party details related styles */
-#party-details{
+#party-details {
     margin-top: 80px;
 }
-.party-details-main{
-    background: linear-gradient(rgba(255, 0, 0, 1),rgba(255, 0, 0, 0));
+
+.party-details-main {
+    background: linear-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
 }
-.party-details-main .party-details-content{
+
+.party-details-main .party-details-content {
     max-width: 550px;
     text-align: center;
     color: #070211;
@@ -165,78 +174,93 @@ button {
     padding: 100px 0;
     margin: 0 auto;
 }
-.party-details-main .party-details-content button{
+
+.party-details-main .party-details-content button {
     margin-top: 45px;
 }
 
 /* best gift related styles */
-#best-gift{
+#best-gift {
     margin-top: 80px;
 }
-.best-gift-main .best-gift-heading *{
+
+.best-gift-main .best-gift-heading * {
     max-width: 900px;
     margin-bottom: 15px;
 }
-.best-gift-main .best-gift-heading #gift{
+
+.best-gift-main .best-gift-heading #gift {
     font-weight: 500;
     font-size: 24px;
 }
-.best-gift-main .best-gift-heading h2{
+
+.best-gift-main .best-gift-heading h2 {
     color: #070211;
     font-weight: 900;
     font-size: 48px;
 }
-.best-gift-main .best-gift-heading #description{
+
+.best-gift-main .best-gift-heading #description {
     color: rgba(7, 2, 17, 0.6);
     font-weight: 400;
     font-size: 20px;
 }
-.best-gift-content{
+
+.best-gift-content {
     margin-top: 30px;
     display: flex;
     gap: 20px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.best-gift-content .best-gift-img{
+
+.best-gift-content .best-gift-img {
     transition: .2s;
 }
-.best-gift-content .best-gift-img:hover{
+
+.best-gift-content .best-gift-img:hover {
     transform: scale(1.03);
-    z-index: 2;
 }
+
 /* newsletter related styles */
-#newsletter{
+#newsletter {
     margin-top: 80px;
 }
-.newsletter-main{
+
+.newsletter-main {
     padding: 50px 0;
     background: rgba(255, 0, 0, 0.05);
 }
-.newsletter-heading *{
+
+.newsletter-heading * {
     margin-bottom: 20px;
 }
-.newsletter-heading{
+
+.newsletter-heading {
     max-width: 738px;
     text-align: center;
     margin: 0 auto;
 }
-.newsletter-heading h2{
+
+.newsletter-heading h2 {
     color: #070211;
     font-weight: 900;
     font-size: 48px;
 }
-.newsletter-heading p{
+
+.newsletter-heading p {
     color: rgba(7, 2, 17, 0.6);
     font-weight: 400;
     font-size: 20px;
 }
-.newsletter-main form{
+
+.newsletter-main form {
     max-width: 530px;
     margin: 30px auto;
     display: flex;
 }
-.newsletter-main form input{
+
+.newsletter-main form input {
     max-width: 330px;
     flex-grow: 1;
     padding: 20px;
@@ -244,7 +268,63 @@ button {
     outline: none;
     border-radius: 50px 0px 0px 50px;
 }
-.newsletter-main form button{
+
+.newsletter-main form button {
     border-radius: 0px 50px 50px 0px;
     padding: 20px 50px;
+}
+
+/* footer related styles */
+#footer {
+    margin-top: 80px;
+    background: #070211;
+}
+
+.footer-main {
+    padding: 100px 0;
+}
+
+#footer .footer-main {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.footer-main .address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main .address .address-details {
+    max-width: 375px;
+}
+
+.footer-main .address .address-contact-information {
+    max-width: 250px;
+    margin-right: 80px;
+}
+
+.footer-main .address .address-contact-information p i {
+    margin-right: 8px;
+}
+
+.footer-main .ruler {
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 30px 0;
+
+}
+
+.footer-main .social-links {
+    display: flex;
+    gap: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.footer-main .footer-end{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main .footer-end .footer-end-button button{
+    padding: 15px 30px;
 }
