@@ -21,7 +21,7 @@
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #discount {
@@ -188,6 +188,7 @@ button:hover {
 /* coming soon related styles */
 .coming-soon-main {
     display: flex;
+    /* gap: 20px; */
     justify-content: space-between;
     align-items: center;
     padding: 100px 0;
