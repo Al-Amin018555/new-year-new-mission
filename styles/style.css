@@ -168,3 +168,33 @@ button {
 .party-details-main .party-details-content button{
     margin-top: 45px;
 }
+
+/* best gift related styles */
+#best-gift{
+    margin-top: 80px;
+}
+.best-gift-main .best-gift-heading *{
+    max-width: 900px;
+    margin-bottom: 15px;
+}
+.best-gift-main .best-gift-heading #gift{
+    font-weight: 500;
+    font-size: 24px;
+}
+.best-gift-main .best-gift-heading h2{
+    color: #070211;
+    font-weight: 900;
+    font-size: 48px;
+}
+.best-gift-main .best-gift-heading #description{
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+    font-size: 20px;
+}
+.best-gift-content{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
