@@ -117,7 +117,7 @@ button:hover {
 }
 
 .midnight-main {
-    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../resources/Vectorrr.png');
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -168,7 +168,7 @@ button:hover {
 }
 
 .party-details-main {
-    background: linear-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+    background: linear-gradient(rgba(255, 0, 0, 0.253), rgba(255, 0, 0, 0));
 }
 
 .party-details-main .party-details-content {
@@ -186,6 +186,10 @@ button:hover {
 }
 
 /* coming soon related styles */
+#coming-soon {
+    margin-top: 80px;
+}
+
 .coming-soon-main {
     display: flex;
     /* gap: 20px; */
@@ -206,16 +210,19 @@ button:hover {
     font-weight: 500;
     font-size: 24px;
 }
-.coming-soon-main .best-offer h2{
+
+.coming-soon-main .best-offer h2 {
     color: #070211;
     font-weight: 900;
     font-size: 48px;
 }
-.coming-soon-main .best-offer .best-offer-description{
+
+.coming-soon-main .best-offer .best-offer-description {
     color: rgba(7, 2, 17, 0.6);
     font-weight: 400;
     font-size: 20px;
 }
+
 .coming-soon-main .new-year-container {
     max-width: 270px;
 }
@@ -223,11 +230,13 @@ button:hover {
 .coming-soon-main .new-year-container * {
     margin-bottom: 15px;
 }
-.coming-soon-main .new-year-container .new-year-text h2{
+
+.coming-soon-main .new-year-container .new-year-text h2 {
     font-weight: 700;
     font-size: 48px;
 }
-.coming-soon-main .new-year-container .new-year-text p{
+
+.coming-soon-main .new-year-container .new-year-text p {
     color: rgba(7, 2, 17, 0.6);
     font-weight: 400;
     font-size: 20px;
@@ -261,7 +270,7 @@ button:hover {
 }
 
 .best-gift-content {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     gap: 20px;
     justify-content: space-between;
