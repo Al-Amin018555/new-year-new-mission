@@ -198,7 +198,13 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.best-gift-content .best-gift-img{
+    transition: .2s;
+}
+.best-gift-content .best-gift-img:hover{
+    transform: scale(1.03);
+    z-index: 2;
+}
 /* newsletter related styles */
 #newsletter{
     margin-top: 80px;
